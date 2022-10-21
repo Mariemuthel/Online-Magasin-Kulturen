@@ -1,0 +1,321 @@
+@ -0,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+    color:b
+}
+
+#logo{
+    position: absolute; 
+    left: 10px;
+}
+
+header img{
+    height: 70px;
+    
+}
+
+header{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 3px solid #ff0000;
+    top: 0;
+   
+ 
+    
+}
+
+header a{
+    text-decoration: none;
+}
+
+
+.main-image{
+    position: relative;
+    text-align: center;
+}
+
+.main-image h1{
+    position: absolute;
+    top: 15%;
+    left: 33%;
+    color: black;
+    background-color: white;
+    font-family:'Oswald', sans-serif;
+    font-size: 100px;
+    
+}
+
+.main-image h3{
+    position: absolute;
+    top: 45%;
+    left: 31%;
+    color: white;
+    font-style: italic;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    
+
+}
+
+
+
+#nyheder{
+    color: black;
+    text-decoration: none;
+    font-size: 70px;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+  
+
+
+
+}
+
+nav{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+    
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    letter-spacing: 2px;
+    color: #ff0000;
+}
+
+a:active{
+    color: rgb(156, 0, 0);
+}
+
+main{
+    margin-top: 70px;
+}
+
+.headingbox h1{
+position: center;
+top: 60px;
+background-color: white;
+
+width: 330px;
+text-align: center;
+text-transform: uppercase;font-weight: 100;font-family: 'Times New Roman', Times, serif;
+font-size: 80pt;
+font-weight: 1px;
+letter-spacing: 1px;
+
+
+
+}
+
+main{
+    margin-top: 0px;
+
+}
+.cardscontainer div{
+    width: 350px;
+    text-align: center;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+}
+
+.cardscontainer div h1{
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+
+.cardscontainer div h2{
+    font-size: 16pt;
+    font-weight: 100;
+}
+
+.cardscontainer
+{display: flex;
+justify-content: space-around; 
+width:100% ; 
+height: 450px;
+}
+
+.cardscontainer a{
+
+    text-decoration: none;
+    color: black;
+
+
+}
+
+#overskriftgods{
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+
+.brødtekst1{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding:50px 200px 50px 200px;
+
+}
+
+#overskrift2{
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+
+.brødtekst2{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding:50px 200px 50px 200px;
+}
+
+footer{
+    background-color: rgb(255, 0, 0);
+    width: 100%;
+    height: 150px;
+}
+
+.socialicon{
+    font-size: 40px;
+    color: black;
+    text-align: left;
+    letter-spacing: 4px;
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.hp{
+    font-size: 30px;
+    color: black soild;
+    text-align: left;
+    letter-spacing: 4px;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+
+}
+
+.halloween{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    letter-spacing: 4px;
+    padding-top: 40px;
+    padding-left: 40px;
+    text-decoration: none;
+
+}
+
+.calendar {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+   
+
+} 
+
+.calendar col.left{
+
+    width: 40%;
+}
+
+.calendar col.rigth{
+
+    width: 60%;
+}
+.calendar td{
+
+   
+    width: 100px
+}
+
+.calendar td.date{
+
+    text-align:right;
+    padding-right: 100px;
+    border-right:3px solid red;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    
+
+
+}
+
+.calendar td.date span{
+    color: #ff0000;
+}
+
+
+
+.calendar td.event{
+
+    padding: 70px 0px 70px 50px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+   
+   
+}
+
+
+.calendar td.event a{
+    text-decoration: none;
+    color: black;
+}
+
+#overskrifthans{
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+}
+
+.brødteksthans{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding:50px 200px 50px 200px;
+    text-align: left;
+
+}
+
+#overskriftfriheden{
+    color: black;
+    text-decoration: none;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+
+}
+
+.brødtekstfriheden{
+
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    padding:50px 200px 50px 200px;
+
+
+}
